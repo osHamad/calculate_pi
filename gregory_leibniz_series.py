@@ -11,4 +11,12 @@ def leibniz_formula(itr):
                 add = True
     return pi*4
 
-print(leibniz_formula(10000))
+#print(leibniz_formula(10000))
+
+def leibniz_formula_2(itr):
+    pi = 1
+    for i in range(1, itr):
+        pi+=((-1)**i)/(2*i+1)
+
+    return pi*4
+print(leibniz_formula_2(10000))
