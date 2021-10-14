@@ -21,22 +21,4 @@ def US_UC(itr):
 
     return 4*(unit_circle/unit_square)
 
-def vis(itr):
-    circle = []
-    circley = []
-    square = []
-    squarey = []
-    for i in range(itr):
-        x = rnd(-1, 1)
-        y = rnd(-1, 1)
-
-        c = x**2 + y**2
-
-        if c <= 1:
-            circle.append(x)
-            circley.append(y)
-        else:
-            square.append(x)
-            squarey.append(y)
-    plt.plot(circle, circley, 'r', square, squarey, 'b')
-    plt.show()
+print(US_UC(10000))
