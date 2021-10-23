@@ -1,2 +1,2 @@
 # Calculate Pi
-A repository of implementations of algorithms for calculating Pi in Python.
+A repository for implementations of pi calculating algorithms and formulae in Python.
